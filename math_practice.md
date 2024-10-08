@@ -17,3 +17,9 @@ If we are using the complete the square approach, we would solve:
 $$x^2 + bx = c$$
 $$x^2 + bx + (\frac{b}{2})^2 = c + (\frac{b}{2})^2$$
 
+If we are estimating a regression, we want to estimate:
+
+$$y_i = \alpha + \beta X_i + \epsilon_i$$
+
+
+
