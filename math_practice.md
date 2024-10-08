@@ -21,5 +21,42 @@ If we are estimating a regression, we want to estimate:
 
 $$y_i = \alpha + \beta X_i + \epsilon_i$$
 
+We can create a matrix to look like this:
+
+$$
+\begin{bmatrix}
+a & b \\
+c & d
+\end{bmatrix}
+$$
+
+So now, let's create a matrix of matricies:
+
+$$
+\begin{bmatrix}
+\begin{pmatrix}
+A & B \\
+C & D 
+\end{pmatrix} 
+&
+\begin{pmatrix}
+E & F \\
+G & H 
+\end{pmatrix} 
+\\
+\begin{pmatrix}
+I & J \\
+K & L 
+\end{pmatrix} 
+&
+\begin{pmatrix}
+|M| & N \\
+O & P 
+\end{pmatrix}
+\end{bmatrix}
+$$
+
+
+
 
 
